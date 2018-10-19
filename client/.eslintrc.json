@@ -1,7 +1,6 @@
 {
     "extends": "standard",
     "rules": {
-        "no-unused-vars":"warn",
-        "semi":"warn"
+        "no-unused-vars":"warn"
     }
 }
