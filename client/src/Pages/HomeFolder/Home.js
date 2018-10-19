@@ -4,7 +4,8 @@ export default class Home extends React.Component {
   componentDidMount () {
     document.title = 'Mildly Adventerous'
   }
-
+  
+  state = {}
   // document.title = "mildlyadventerous";
   render () {
     return (
