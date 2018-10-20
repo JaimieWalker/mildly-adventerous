@@ -6,11 +6,9 @@ export default class Header extends React.Component {
   render () {
     return (
       <div>
-        <header>
+        <header className ="gameTitle text-center">
           <img id="logo" src={tulips} alt="tulip"/>
-          <nav>
-            <a href="#">Start Adventure</a>
-          </nav>
+          <h1>Mildly Adventerous</h1>
         </header>
       </div>
     )
