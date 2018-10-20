@@ -8,7 +8,7 @@ export default class Header extends React.Component {
       <div>
         <header className ="gameTitle text-center">
           <img id="logo" src={tulips} alt="tulip"/>
-          <h1>Mildly Adventerous</h1>
+          <h1>Mildly Adventurous</h1>
         </header>
       </div>
     )
