@@ -5,8 +5,8 @@ import './css/header.css'
 export default class Header extends React.Component {
   render () {
     return (
-      <div>
-        <header className ="gameTitle text-center">
+      <div className="title">
+        <header className="gameTitle text-center d-flex justify-content-around">
           <img id="logo" src={tulips} alt="tulip"/>
           <h1>Mildly Adventurous</h1>
         </header>

@@ -4,15 +4,12 @@
 }
 
 .gameTitle h1{
-    font-family: "Courier New";
-
+    font-family: Apple Chancery, cursive;
+    font-size: 3em;
 }
 
-@keyframes title{
-    from{
-        background-color: white;
-    }
-    to{
-        background-color: green;
-    }
+.title{
+    background-color: rgb(242, 244, 248);
+    color: green;
 }
+
