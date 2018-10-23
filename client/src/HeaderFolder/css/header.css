@@ -6,10 +6,8 @@
 .gameTitle h1{
     font-family: Apple Chancery, cursive;
     font-size: 3em;
-}
-
-.title{
     background-color: rgb(242, 244, 248);
     color: green;
+    width: 100%;
+    box-shadow: 5px -5px inset black;
 }
-
