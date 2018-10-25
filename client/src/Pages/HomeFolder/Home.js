@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import { Link } from 'react-router-dom'
 
 export default class Home extends React.Component {
   componentDidMount () {
@@ -17,10 +18,11 @@ export default class Home extends React.Component {
         </h2>
 
         <nav className="newGame d-flex justify-content-around">
-          <h3>{"Haven't gone anywhere"}</h3>
+          <h3><Link to="/name">{'Feeling Adventurous?'}</Link></h3>
           <h3>Continue</h3>
           <h3>The Story so far...</h3>
         </nav>
+        <hr/>
       </section>
 
     )

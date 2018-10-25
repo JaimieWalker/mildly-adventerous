@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
     return (
 
       <footer>
-        <h4 className= "text-center">  Adventures of The Mildly Adventurous Traveler! </h4>
+        <h4 className= "text-center">Adventures of The Mildly Adventurous Traveler!</h4>
       </footer>
 
     )
