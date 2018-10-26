@@ -4,5 +4,8 @@
         "plugin:react/recommended",
         "standard"
     ],
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "rules": {
+        "react/prop-types": 0
+    }
 }

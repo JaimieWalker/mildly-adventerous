@@ -13,8 +13,8 @@ html{
 footer {
   width: 100%;
   flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  padding: 20px;
   margin: auto auto 0 auto;
   background-color: red;
   flex-direction: row;
+  padding-top: 20px;
 }

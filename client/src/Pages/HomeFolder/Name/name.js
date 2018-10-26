@@ -5,7 +5,7 @@ export default class Name extends React.Component {
       <section className="name">
         Routes Yo
 
-        <h1><button onClick={() => console.log(this.props.history)}> Back</button></h1>
+        <h1><button onClick={() => this.props.history.goBack()}> Back</button></h1>
 
       </section>
     )

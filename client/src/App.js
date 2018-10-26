@@ -8,6 +8,10 @@ import './App.css'
 import Name from './Pages/HomeFolder/Name/name'
 
 class App extends React.Component {
+  componentDidMount () {
+    document.title = 'Mildly Adventurous'
+  }
+
   render () {
     return (
       <div className="App">
@@ -15,6 +19,7 @@ class App extends React.Component {
 
         <Route path="/" exact component={Home} />
         <Route path="/name" component={Name} />
+        <hr/>
         <Footer />
       </div>
     )
