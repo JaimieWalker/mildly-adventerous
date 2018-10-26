@@ -2,13 +2,13 @@ import React from 'react'
 import './home.css'
 import { Link } from 'react-router-dom'
 
-export default class Home extends React.Component {
+class Home extends React.Component {
   componentDidMount () {
     document.title = 'Mildly Adventurous'
   }
 
   state = {}
-  // document.title = "mildlyAdventurous";
+
   render () {
     return (
 
@@ -22,9 +22,10 @@ export default class Home extends React.Component {
           <h3>Continue</h3>
           <h3>The Story so far...</h3>
         </nav>
-        <hr/>
       </section>
 
     )
   }
 }
+
+export default Home
