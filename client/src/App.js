@@ -5,7 +5,7 @@ import Footer from './FooterFolder/Footer'
 import { Route } from 'react-router-dom'
 
 import './App.css'
-import Name from './Pages/HomeFolder/Name/name'
+import NewGame from './Pages/HomeFolder/NewGame/NewGame'
 
 class App extends React.Component {
   componentDidMount () {
@@ -18,7 +18,7 @@ class App extends React.Component {
         <Header />
 
         <Route path="/" exact component={Home} />
-        <Route path="/name" component={Name} />
+        <Route path="/NewGame" component={NewGame} />
         <hr/>
         <Footer />
       </div>

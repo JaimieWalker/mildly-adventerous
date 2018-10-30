@@ -18,7 +18,7 @@ class Home extends React.Component {
         </h2>
 
         <nav className="newGame d-flex justify-content-around">
-          <h3><Link to="/name">{'Feeling Adventurous?'}</Link></h3>
+          <h3><Link to="/NewGame">{'Feeling Adventurous?'}</Link></h3>
           <h3>Continue</h3>
           <h3>The Story so far...</h3>
         </nav>
