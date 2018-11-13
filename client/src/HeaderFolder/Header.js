@@ -6,11 +6,11 @@ export default class Header extends React.Component {
   render () {
     return (
 
-      <header className="gameTitle text-center d-flex justify-content-around">
-        <h1>
+      <header className="text-center d-flex justify-content-around">
+        <h3 className="gameTitle">
           <img id="logo" src={tulips} alt="tulip"/>
           Mildly Adventurous
-        </h1>
+        </h3>
       </header>
     )
   }
