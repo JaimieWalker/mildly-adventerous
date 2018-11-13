@@ -29,9 +29,9 @@ body{
         padding:10px;
     }
     
-    .newGame h4{
-        
-        margin-bottom: 15px;
+    .newGame button{
+        width:100%;
+        margin-bottom: 20px;
     }
 }
 
