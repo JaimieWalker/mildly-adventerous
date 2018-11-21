@@ -10,7 +10,9 @@
     width: 90%;
     margin: auto;
 }
-
+#ready{
+    margin-right: 10%;
+}
 #back{
     margin-top: 10%;
 }   
