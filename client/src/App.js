@@ -16,10 +16,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-
         <Route path="/" exact component={Home} />
         <Route path="/NewGame" component={NewGame} />
-        <hr/>
+        <hr />
         <Footer />
       </div>
     )

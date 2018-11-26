@@ -7,8 +7,6 @@ class Home extends React.Component {
     document.title = 'Mildly Adventurous'
   }
 
-  state = {}
-
   render () {
     return (
 
